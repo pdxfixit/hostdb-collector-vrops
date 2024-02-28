@@ -1,0 +1,29 @@
+---
+  collector:
+    debug: false
+    sample_data: false
+  vrops: # credentials with permissions to read from vROps
+    host: https://vrops.pdxfixit.com
+    pageSize: 1000
+    pass: password
+    resourceKindKeys:
+        - ClusterComputeResource
+        - ComputeResource
+        - CustomDatacenter
+        - Datacenter
+        - Datastore
+        - DatastoreFolder
+        - DistributedVirtualPortgroup
+        - Folder
+        - HostFolder
+        - HostSystem
+        - NetworkFolder
+        - ResourcePool
+        - StoragePod
+        - VirtualMachine
+        - VM Entity Status
+        - VMFolder
+        - VMwareAdapter Instance
+        - VmwareDistributedVirtualSwitch
+#        - vSphere World
+    user: username
